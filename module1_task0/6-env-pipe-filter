@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# Use the env command to print environment variables
+# Pipe the output to grep to filter variables starting with TERM
+env | grep '^TERM'
+
