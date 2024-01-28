@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Initialize a counter
+counter=1
+
+# Use a while loop to display "DevOps" 10 times
+while [ $counter -le 10 ]; do
+    echo "DevOps"
+    ((counter++))
+done
+
